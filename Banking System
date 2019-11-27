@@ -1,15 +1,1 @@
-As we discussed we are planning to do an information system for banking operations.For that we need to figureout functional and non functional requirements first.
-
-functional requirements
-•	The bank must process the request of a user by verifying the details of customer, like, whether that is a valid account. If user initiate to transfer found check if the account has enough money.
-•	Bank able to update the current balance after each transaction.
-•	Interest rate should be updated automatically
-•	A valid user can check his balance and perform money transactions
-•	User can change his login password
-Nonfunctional requirements
-•	Bank can add or remove a customer
-•	User must log in to their account by a username and password for security
-•	Bank can suspend any account for a period
-•	The service must be available at any time
-
-
+As the discussion in the class it is more clear that we have to work on a backend and front end.Hence we changed our baking system to appartment rental system.Aslo we had dicussed some functional and non functional requiremnts too. By the light of that the schema is also created now ,we need to review that schema and the requirements inorder to begin our project
