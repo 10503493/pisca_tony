@@ -1,0 +1,10 @@
+since we have changed the topic to apartment rental system the new functional requirements are added bellow 
+•	User can login with a password
+•	User can choose the apartment he wishes to rent from the list
+•	Once an apartment is booked it should be shown unavailable until the booking period ends
+•	User can have an option to view the facilities too
+•	If one person is owning an apartment and he is willing to rent it he can also sell it in this portal. A username and password should be needed for him 
+•	Building owner must have a different login page and view.In that he must able to add details of his apartment.
+
+Initially achieving this as a second phase we need to able user to search the facilities and choose the apartment accordingly.
+ 
