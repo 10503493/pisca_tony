@@ -8,3 +8,7 @@ since we have changed the topic to apartment rental system the new functional re
 
 Initially achieving this as a second phase we need to able user to search the facilities and choose the apartment accordingly.
  
+some helpfull links:
+ https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/
+ https://whatismyipaddress.com/localhost
+ https://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/
