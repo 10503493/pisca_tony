@@ -1,66 +1,23 @@
-login page:
-<html>
-<head>
-<title>Login </title>
-</head>
-<body>
-<form name="loginForm" method="post" action="login.php">
-<table width="20%" bgcolor="0099CC" align="center">
-
-<tr>
-<td colspan=2><center><font size=4><b>Login </b></font></center></td>
-</tr>
-
-<tr>
-<td>Username:</td>
-<td><input type="text" size=25 name="userid"></td>
-</tr>
-
-<tr>
-<td>Password:</td>
-<td><input type="Password" size=25 name="pwd"></td>
-</tr>
-
-<tr>
-<td ><input type="Reset"></td>
-<td><input type="submit" onclick="return check(this.form)" value="Login"></td>
-</tr>
-
-</table>
-</form>
-<script>
-function check(form)
-{
-
-if(form.userid.value == "1" && form.pwd.value == "1")
-	alert("ok")
-	return true;
-	
-	
-}
-else
-{
-	alert("Error Password or Username")
-	return false;
-}
-}
-</script>
-
-</body>
-</html>
-
-#######################################################
-
-
-from flask import Flask, render_template      
+from flask import Flask
+from flask_mysqldb import MySQL
 
 app = Flask(__name__)
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = 'root'
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_DB'] = 'app'
 
-@app.route("/")
-def home():
-    return render_template("testpisca.html")
-    
 
-if __name__ == "__main__":
-    app.run(debug=True)
-   
+mysql = MySQL(app)
+
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    cur = mysql.connection.cursor()
+    cur.execute("select * from user")
+    data = cur.fetchall()
+    cur.close()
+    return 'success'
+    #return data
+
+if __name__ == '__main__':
+    app.run()
