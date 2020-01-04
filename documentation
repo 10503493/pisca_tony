@@ -1,0 +1,14 @@
+Abstract
+The report elucidates the process of development of an information system for an apartment rental web application along with the approach ,design and code. The project was carried out by a group of three members as part of  assignment. The objective of this project was to create an information system for any chosen domain, with or without GUI. Here the chosen system is an apartment rental. In which a registered user can search and book an apartment. Python flask is the integral part  of this web application as a framework, along with HTML5,CSS,Javascript and SQL. By choosing  a framework, it reduces the programmer’s effort to have active communication between the server and user and  act as a proper link between them as well.
+Keywords: Apartment rental ,web application ,Python flask, HTML5,CSS,Javascript,SQL 
+Introduction
+
+Business case
+Functional requirements
+Analysis and approach 
+Design of the system
+Technologies used 
+Implementation and testing
+Result
+Reference 
+Appendix 
