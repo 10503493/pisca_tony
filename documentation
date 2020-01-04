@@ -2,8 +2,10 @@ Abstract
 The report elucidates the process of development of an information system for an apartment rental web application along with the approach ,design and code. The project was carried out by a group of three members as part of  assignment. The objective of this project was to create an information system for any chosen domain, with or without GUI. Here the chosen system is an apartment rental. In which a registered user can search and book an apartment. Python flask is the integral part  of this web application as a framework, along with HTML5,CSS,Javascript and SQL. By choosing  a framework, it reduces the programmer’s effort to have active communication between the server and user and  act as a proper link between them as well.
 Keywords: Apartment rental ,web application ,Python flask, HTML5,CSS,Javascript,SQL 
 Introduction
-
+Data is the backbone of an information system; it has difference in all about how and when to display or hide the data. Here the chosen information system is a web application for an apartment renting agency. It is dealing with a set of data of its clients ,the details of apartments also the booking details. All those details are stored and retrieved by an SQL server (Microsoft). The user is interacting with a GUI which is powered by the combination of HTML and CSS and the operations and actions of user is decoded by Javascript. (Toledo, 2018) Now there should be connecting medium to bring data up and down and transform all server call to the server by the user. For that purpose, Python flask is used. Finally, by deploying this application a user can register his details in the system and look for an apartment for his wish and book them if he needs.
 Business case
+Rent.ie is the one of the famous apartment rental agencies in Ireland, they have several apartments to be rented. Now they wish to introduce a web application for their customers which enables any registered user to look for the listed apartments and make a booking. For a new customer there is an option for register their details in the system and thus they can also have access to the booking. The company wants to keep the customer details and booking details which can be retrieved at any time. Also, they need to see the current booking status of all the apartments which had listed.
+
 Functional requirements
 Analysis and approach 
 Design of the system
@@ -12,3 +14,4 @@ Implementation and testing
 Result
 Reference 
 Appendix 
+
