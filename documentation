@@ -1,0 +1,46 @@
+Abstract
+The report elucidates the process of development of an information system for an apartment rental web application along with the approach ,design and code. The project was carried out by a group of three members as part of  assignment. The objective of this project was to create an information system for any chosen domain, with or without GUI. Here the chosen system is an apartment rental. In which a registered user can search and book an apartment. Python flask is the integral part  of this web application as a framework, along with HTML5,CSS,Javascript and SQL. By choosing  a framework, it reduces the programmer’s effort to have active communication between the server and user and  act as a proper link between them as well.
+Keywords: Apartment rental ,web application ,Python flask, HTML5,CSS,Javascript,SQL 
+Introduction
+Data is the backbone of an information system; it has difference in all about how and when to display or hide the data. Here the chosen information system is a web application for an apartment renting agency. It is dealing with a set of data of its clients ,the details of apartments also the booking details. All those details are stored and retrieved by an SQL server (Microsoft). The user is interacting with a GUI which is powered by the combination of HTML and CSS and the operations and actions of user is decoded by Javascript. (Toledo, 2018) Now there should be connecting medium to bring data up and down and transform all server call to the server by the user. For that purpose, Python flask is used. Finally, by deploying this application a user can register his details in the system and look for an apartment for his wish and book them if he needs.
+Business case
+Rent.ie is the one of the famous apartment rental agencies in Ireland, they have several apartments to be rented. Now they wish to introduce a web application for their customers which enables any registered user to look for the listed apartments and make a booking. For a new customer there is an option for register their details in the system and thus they can also have access to the booking. The company wants to keep the customer details and booking details which can be retrieved at any time. Also, they need to see the current booking status of all the apartments which had listed.
+
+Functional requirements
+•	Every registered customer must have unique  a username and a password
+•	Whenever a customer enters the correct login credentials, he shall be directed to the next page which is a list showing the apartments.
+•	If any customer enters wrong username or password an error message should be shown.
+•	In the listing page user can browse for the perfect apartment for his need by search and filter facility in order to simplify user’s effort.
+•	Once a customer finds a perfect result, he can book that apartment if its available 
+•	When a customer book an apartment, the status of  that specific one should be updated to be unavailable, so that cross booking can be avoided.
+•	A report of all booking must be generated to the admin if he made a request. 
+•	There should be an option for register new customer details.
+•	All customer details and booking must be stored and retrieved whenever needed.
+
+Analysis and approach /methodology 
+By examine the scenario it is clear that the expected outcome is web application which has a user login and logged in users can see different views of  data also they can initiate some actions to manipulate the data stored in the database. The basic minimum technologies needed to achieve those functionalities are a database system SQL is chosen here, a responsive user end; which is fulfilled by HTML5,Jvascript and CSS. Also, a programming language to code server-side operations. (FRA).  A web framework (WF) or web application framework (WAF) is a software framework that is designed to support the development of web applications including web services, web resources, and web APIs. Web frameworks provide a standard way to build and deploy web applications on the World Wide Web. (Khosla, 2018).Here the frame work chosen is Python Flask. Flask is an API of Python that allows to build up web-applications. It was developed by Armin Ronacher. Flask's framework is more explicit than Django's framework and is also it have less base code to implement a simple web-Application. (Smyth, 2018).XXXXXXXXXXXXXXXXXXXX
+Schema and explanation 
+Design of the system
+Block diagram or flow chat which shows the operation of the system as per functional requirement
+
+
+Technologies used 
+Flask
+ A Web-Application Framework or Web Framework is the collection of modules and libraries that helps the developer to write applications without writing the low-level codes such as protocols, thread management, etc. Flask is based on WSGI(Web Server Gateway Interface) toolkit and Jinja2 template engine.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+SQL
+SQL is used to communicate with a database. According to ANSI (American National Standards Institute), it is the standard language for relational database management systems. SQL statements are used to perform tasks such as update data on a database or retrieve data from a database.(Microsoft)
+Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+HTML
+#CSS
+Javascript
+
+Implementation and testing
+code explanations (functions(); used in the code)
+how flask is interconnected with
+methos / triggers used in sql
+operations in front end
+Result
+Thus the identified requirements are satisfied 
+Reference 
+Appendix 
+
