@@ -1,10 +1,35 @@
-since we have changed the topic to apartment rental system the new functional requirements are added bellow 
-•	User can login with a password
-•	User can choose the apartment he wishes to rent from the list
-•	Once an apartment is booked it should be shown unavailable until the booking period ends
-•	User can have an option to view the facilities too
-•	If one person is owning an apartment and he is willing to rent it he can also sell it in this portal. A username and password should be needed for him 
-•	Building owner must have a different login page and view.In that he must able to add details of his apartment.
+<html>
+    <select id= "current">
+        <option>Currently booked apartments</option>
+        <option>Get Most Frequently Booked apartment</option>
+        <option>Apartment order by price</option>
+    </select>
+    <div id="table">
+    </div>
+    <script>
 
-Initially achieving this as a second phase we need to able user to search the facilities and choose the apartment accordingly.
- 
+function loadList(url,id){
+
+var xmlhttp = new XMLHttpRequest();
+
+xmlhttp.onreadystatechange = function() {
+    if (xmlhttp.readyState == XMLHttpRequest.DONE) {  
+       if (xmlhttp.status == 200) {
+        document.getElementById(id).innerHTML =  createList(JSON.parse(xmlhttp.responseText));
+       }
+       else if (xmlhttp.status == 400) {
+          alert('There was an error 400');
+       }
+       else {
+           alert('something else other than 200 was returned');
+       }
+    }
+};
+
+xmlhttp.open("GET", url, true);
+xmlhttp.send();
+
+}
+
+    </script>
+</html>
